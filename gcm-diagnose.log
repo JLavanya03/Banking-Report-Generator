@@ -1,0 +1,192 @@
+﻿Diagnose log at 2025-10-15T03:06:02Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.6.1+786ab03440ddc82e807a97c0e540f5247e44cec6
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26100)
+Reading environment variables... OK
+ Variables:
+PROCESSOR_ARCHITEW6432=AMD64
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=DESKTOP-TQSI87F
+MSYSTEM=MINGW64
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\HP\OneDrive
+PYTHON_BASIC_REPL=1
+HOMEPATH=\Users\HP
+LANG=en_US.UTF-8
+TMP=C:\Users\HP\AppData\Local\Temp
+HOME=C:\Users\HP
+PROCESSOR_REVISION=8e0a
+USERDOMAIN=DESKTOP-TQSI87F
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+SystemDrive=C:
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+TEMP=C:\Users\HP\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\HP\AppData\Local
+PUBLIC=C:\Users\Public
+TERM=xterm-256color
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+COLORTERM=truecolor
+PYTHONSTARTUP=c:\Users\HP\AppData\Roaming\Code\User\workspaceStorage\b05fd7d2815a119ac8ed2fe4908bb443\ms-python.python\pythonrc.py
+EFC_19056_1262719628=1
+ProgramFiles(x86)=C:\Program Files (x86)
+EFC_19056_2775293581=1
+TERM_PROGRAM=vscode
+PROCESSOR_LEVEL=6
+NUMBER_OF_PROCESSORS=8
+TMPDIR=C:\Users\HP\AppData\Local\Temp
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+TERM_PROGRAM_VERSION=1.105.0
+GIT_ASKPASS=c:\Users\HP\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+PSModulePath=C:\Users\HP\OneDrive\Dokumen\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-80d2e84ecf-sock
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+VSCODE_INJECTION=1
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_42328_JONXRVJZBWABZNCX
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\HP\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+ProgramW6432=C:\Program Files
+ProgramFiles=C:\Program Files (x86)
+GIT_TRACE2_PARENT_SID=00723767-b140-41f2-af13-811a3e4061d7
+VSCODE_GIT_ASKPASS_NODE=C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+SystemRoot=C:\WINDOWS
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+SESSIONNAME=Console
+CommonProgramW6432=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+LOGONSERVER=\\DESKTOP-TQSI87F
+USERPROFILE=C:\Users\HP
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-TQSI87F
+APPDATA=C:\Users\HP\AppData\Roaming
+HOMEDRIVE=C:
+EFC_19056_2283032206=1
+EFC_19056_1592913036=1
+USERNAME=HP
+EFC_19056_3789132940=1
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\HP\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\HP\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\HP\AppData\Local\Programs\Python\Python311\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin
+windir=C:\WINDOWS
+OneDriveConsumer=C:\Users\HP\OneDrive
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\HP\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\HP\AppData\Local\Temp\dd6a4881915524d96f8af6ed'... OK
+Reading from temporary file 'C:\Users\HP\AppData\Local\Temp\dd6a4881915524d96f8af6ed'... OK
+Deleting temporary file 'C:\Users\HP\AppData\Local\Temp\dd6a4881915524d96f8af6ed'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\HP
+UserDataDirectoryPath: C:\Users\HP\.gcm
+GetCurrentDirectory(): C:\Users\HP\Downloads\Lavanya Report
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:55774/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.51.0.windows.1'
+Locating current repository...Git repository at 'C:/Users/HP/Downloads/Lavanya Report/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/HP/.gitconfig	user.email=surendiranmathivanan233@gmail.com
+file:C:/Users/HP/.gitconfig	user.name=SuReNDiRaN23
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/JLavanya03/Banking-Report-Generator.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\HP\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\HP\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
